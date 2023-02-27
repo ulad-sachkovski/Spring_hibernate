@@ -5,6 +5,7 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
@@ -12,12 +13,16 @@
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd
-        http://www.springframework.org/schema/tx
-        http://www.springframework.org/schema/tx/spring-tx.xsd ">
+         http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 <context:component-scan base-package="com.vsachkovsky.spring_project_v2"/>
 
-<mvc:annotation-driven/>
+    <mvc:annotation-driven/>
+
+    <aop:aspectj-autoproxy/>
 
 <bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -30,7 +35,7 @@
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring_hibernate?useSSL=false"/>
         <property name="user" value="VS_User"/>
-        <property name="password" value="VS_User_123"/>
+        <property name="password" value="stasik1234SSS$"/>
     </bean>
 
     <bean id="sessionFactory"

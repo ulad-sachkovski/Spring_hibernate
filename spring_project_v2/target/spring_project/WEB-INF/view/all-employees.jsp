@@ -22,7 +22,7 @@
     </tr>
 
     <c:forEach var="emp" items="${allEmps}">
-        
+
         <tr>
             <td>${emp.name}</td>
             <td>${emp.surname}</td>
