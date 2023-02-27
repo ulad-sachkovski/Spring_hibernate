@@ -1,0 +1,8 @@
+This is the app, that builds local server by using Tomcat 
+and illustrates the data from employee database (MySQL).
+The app also allows to add new employee in browser
+(corresponding data will be added to employee table)
+
+The app was build using Spring MVC and hibernate
+
+
