@@ -1,0 +1,3 @@
+The programme connects to SQL database, using Hibernate
+
+In Test class the programme prints all the cities of the database
