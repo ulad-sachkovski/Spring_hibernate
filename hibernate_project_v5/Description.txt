@@ -1,0 +1,3 @@
+The programme connects to SQL database and use many-to-many relationship (hibernate)
+
+In the main the programme adds children and their section to the database
