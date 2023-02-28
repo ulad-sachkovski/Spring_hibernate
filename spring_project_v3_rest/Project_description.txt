@@ -1,0 +1,5 @@
+This is the app, that builds local server by using Tomcat 
+and illustrates the data from employee database (MySQL).
+The app works using REST API
+
+The app was build using Spring MVC and hibernate
