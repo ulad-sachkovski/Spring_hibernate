@@ -1,0 +1,7 @@
+The app simply demonstates the working process of Spring:
+- inversion of control (through @Component and @Configuration)
+- dependency injection (through @Aurowired and @Qualifier)
+
+Also the app includes aop class, that uses @Around advice
+
+
